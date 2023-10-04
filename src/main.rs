@@ -1,7 +1,5 @@
 use std::fs::File;
 use std::io;
-#[allow(unused_imports)]
-use std::thread;
 use std::time::{Duration, Instant};
 
 fn download_file(url: &str, modo: &str, filename: &str) {
